@@ -1,0 +1,14 @@
+$ mkdir git-embarcatech
+$ cd git-embarcatech
+$ git init
+$ git config user.name "MarioMLN"
+$ git config user.email "mariomlneto321@gmail.com"
+$ git add ReadME.txt
+$ git commit -m "Adiciona txt com nome e matricula"
+$ git remote add origin https://github.com/MarioMLN/curso-git-embarcatech.git 
+$ git branch -M main
+$ git push -u origin main
+$ git commit -m "Adiciona lista de comandos"
+$ git add .
+$ git commit -m "Adiciona lista de comandos"
+$ git push origin
